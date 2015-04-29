@@ -1,0 +1,141 @@
+@charset "utf-8";
+
+/*전체 페이지*/
+#wrap { width: 100%; height: 100%; }
+
+/* 헤더부분 */
+#header { width: 100%; heigth: 60px; border-bottom: 1px solid #006abd; background-color: #0085ec; }
+#header > div {  margin: 0 auto; width: 1024px; height: 60px }
+.header_title { float: left; font-size: 26px; color: #fff;line-height: 55px; }
+.head_bar { float: left; width: 2px; height: 20px; background-color: #339df0; margin: 20px 12px; }
+.header_sub { float: left; position: relative; font-size: 18px; color: #fff;line-height: 55px; }
+.header_sub em {  }
+.header_sub .help { display: inline-block; width: 14px; height: 14px; background: url(../../../img/brand/pib/web/icon_help.png) repeat 0 0; vertical-align: middle; }
+.header_sub .help_box { display: none; position: absolute; top: 42px; left: 38px; padding: 13px 5px 10px; width: 175px; height: 105px; background: url(../../../img/brand/pib/web/talk_box.png) no-repeat 0 0; line-height: 1.2; box-sizing: border-box; letter-spacing: -1px; z-index: 10; }
+.header_sub .help_box em { font-size: 14px; }
+.header_sub .help_box span {font-size: 12px; }
+.menu_btn { display: none; }
+
+.head_right { float: right;  }
+.head_right > div { float: left; height: 60px; padding: 20px 10px; color: #fff; font-size: 18px; box-sizing: border-box; }
+.head_right .head_link { position: relative; padding: 0; background: url(../../../img/brand/pib/web/top_select.png) no-repeat right 27px; }
+.head_right > div.now_page { height: 61px; background-color: #fff; color: #0085ec; }
+
+/* 헤더 우측 link 사이트 */
+.head_right .head_link.on { border-bottom: 1px solid #141414; background: url(../../../img/brand/pib/web/top_select.png) no-repeat right 27px, #3d3d3d; } 
+.head_link > div { padding: 20px 32px 20px 10px; }
+.head_site { display: none; position: absolute; top: 60px; left: 0px; width: 100%; background-color: #4e4e4e;  }
+.head_site li { height: 49px; line-height: 49px; border-bottom: 1px solid #606060; }
+.head_site li:last-child { border-bottom: none; } 
+.head_site li a { display: block; padding-left: 9px; font-size: 15px; color: #fff; }
+
+/* contain */ 
+#content { margin: 0 auto; width: 1024px; height: auto; background-color: #fff; }
+.contain { padding: 0 40px; min-height: 413px; }
+.top_box { height: 220px; border-bottom: 1px solid #ced9e2; background-color: #e5f2fc; text-align: center; }
+.top_box > div { display: table; position: relative; margin: 0 auto; height: 220px; }
+.box_img { display: block;  position: absolute; top: 50%; width: 138px; height: 138px; margin-top: -68px; background: url(../../../img/brand/pib/web/weebi_img01.gif) repeat 0 0; }
+.box_mes { display: table-cell; padding-left: 167px; vertical-align: middle; font-size: 30px; text-align: left; color: #0773cf; }
+.box_mes p { padding-top: 15px; font-size: 20px; color: #373737; }
+
+.top_box2 { height: 135px; margin: 0 40px; border-bottom: 1px solid #ced9e2; background-color: #fff; text-align: center; }
+.top_box2 > div { display: table; position: relative; margin: 0 auto; height: 135px; }
+
+.box_img2 { display: block;  position: absolute; top: 50%; width: 74px; height: 74px; margin-top: -37px; background: url(../../../img/brand/pib/web/sub_title_img.png) repeat 0 0; }
+.box_mes2 { display: table-cell; padding-left: 88px; vertical-align: middle; font-size: 40px; text-align: left; color: #373737; }
+.box_mes2 em { display: inline-block; padding-bottom: 15px; }
+.box_mes2 p { font-size: 14px; color: #373737; }
+.sub_dot { padding-left: 11px; background: url(../../../img/brand/pib/web/icon_sub_list.png) no-repeat 0 6px;}
+
+.top_title { padding: 20px 0; margin: 0 40px; border-bottom: 1px solid #e5e5e5; }
+.top_title em { display: block; margin-bottom: 12px; font-size: 30px; color: #373737; }
+.top_title p { display: block; font-size: 14px; color: #373737; }
+.top_title.ty2 em { margin-bottom: 0; }
+.end_time { font-size: 20px; color: #e01717; }
+/* 동의 */
+.agree_box { position: relative; padding: 17px 0 17px 34px; line-height: 1.2; cursor: pointer; }
+.agree_box .check_btn { position: absolute; top: 50%; margin-top: -13px; left: 0; }
+
+.keep_num { display: inline-block; height: 44px; overflow: hidden; }
+.keep_num .input { float: left; width: 44px; margin-right: 6px; }
+.keep_num .input:last-child { margin-right: 0; }
+
+/* footer */
+#footer { width: 100%; }
+#footer > div { position: relative; margin: 0 auto; width: 1024px; padding: 0 40px; background-color: #fff; box-sizing: border-box; }
+#footer .footer_box { position: relative; margin: 0 auto;  padding: 14px 0 14px 46px; background: url(../../../img/brand/pib/web/footer_bg.png) no-repeat left center, #fff; color: #606060; font-size: 13px; }
+#footer {  }
+.footer_link {  margin-bottom: 8px; color: #606060; font-size: 13px; }
+.footer_link a {  color: #606060; font-size: 13px; }
+.footer_link a.on { color: #0083cb; }
+.family_link { position: absolute; top: 14px; right: 40px; width: 148px; height: 30px; border: 1px solid #cccccc;  -webkit-border-radius: 2px; border-radius: 2px; -webkit-box-sizing: border-box; color: #424242; line-height: 30px; font-size: 13px;box-sizing: border-box; }
+.family_site { display: none; position: absolute; bottom: 28px; left: -1px; width: 100%; border: 1px solid #cccccc; }
+.family_link div { padding-left: 13px; padding-right: 30px; height: 28px; background: #fff url(../../../img/brand/pib/web/family_link.png) no-repeat right ; line-height: 28px; }
+.family_site li { border-top: 1px solid #cccccc; }
+.family_site li a { display: block; padding-left: 13px;  }
+.family_site li a:hover { background-color: #cccccc; color: #fff; }
+.family_site {  }
+
+/* 약관보기  */
+.clause_box { position: relative; padding: 14px 100px 14px 19px; background-color: #ecf4fb; border-bottom: 1px solid #e5e5e5; }
+.clause_box .title { color: #373737; font-size: 12px; line-height: 1.3; }
+.clause_box .clause { position: absolute; top: 50%; right: 20px; margin-top: -12px; }
+
+/* 대출 하단 */
+.last_box { padding-bottom: 60px; border-bottom: 1px solid #e5e5e5;}
+
+/* 메인페이지 */
+#mainWrap { width: 1024px; margin: 0 auto; background: #fff; }
+.back1 { position: absolute; top: 0; left: 0; width: 100%; height: 482px; background: url(../../../img/brand/pib/web/back_linear.gif) repeat-x 0 0; }
+
+#mainWrap #header { position: relative; z-index: 1; height: 59px; border-bottom: 1px solid #006abd; background: #0085ec; }
+#mainWrap #header .logo { float: left; width: 129px; height: 39px; padding-top: 11px; }
+#mainWrap #header .menu { float: right; height: 100%; }
+#mainWrap #header .menu li { float: left; position: relative; height: 100%; margin-left: 10px; padding: 0 10px; }
+#mainWrap #header .menu li a { display: block; line-height: 59px; color: #fff; font-size: 17px; }
+#mainWrap #header .menu li li { display: none; }
+#mainWrap #header .menu li.on { background: #fff; }
+#mainWrap #header .menu li.on a { color: #0085ec; }
+#mainWrap #header .menu li.on li { display: block; }
+#mainWrap #header .menu li.sub a { padding-right: 20px; background: url(../../../img/brand/pib/web/arrow_bottom1.png) no-repeat right 25px; }
+#mainWrap #header .menu li.sub.on a { background: url(../../../img/brand/pib/web/arrow_top1.png) no-repeat right 25px; }
+#mainWrap #header .menu li.sub ul { position: absolute; left: 0; right: 0; }
+#mainWrap #header .menu li.sub li { float: none; margin-left: 0; padding: 0 7px; border-top: 1px solid #dbdbdb; background: #f4f4f4; }
+#mainWrap #header .menu li.sub li:first-child { border-top: 1px solid #c3c3c3; }
+#mainWrap #header .menu li.sub li a { padding-right: 0; background: none; font-size: 14px; color: #707070; }
+#mainWrap #header .menu li.sub.on li a { background: none; }
+#mainWrap #header .menu .wooribank { margin-left: 0; }
+#mainWrap #header .menu .wooribank a { line-height: 0; padding: 20px 0 19px; }
+
+#mainWrap #header .menu li.sub:hover { background: #fff; }
+#mainWrap #header .menu li.sub:hover li { display: block; }
+#mainWrap #header .menu li.sub:hover a { background: url(../../../img/brand/pib/web/arrow_top1.png) no-repeat right 25px; color: #0085ec; }
+#mainWrap #header .menu li.sub:hover li a { background: none; }
+
+#mainWrap #content { position: relative; z-index: 1; padding: 29px 40px 0; background: url(../../../img/brand/pib/web/img_wibee.png) no-repeat 0 0; }
+#mainWrap #content .loan { height: 443px; padding-left: 472px; background: url(../../../img/brand/pib/web/img_character.png) no-repeat 60px 12px; color: #fff; }
+#mainWrap #content .loan dt { font-size: 42px; line-height: 76px; font-weight: normal; }
+#mainWrap #content .loan dd { font-size: 26px; line-height: 31px; }
+#mainWrap #content .loan dt b { font-weight: bold; }
+#mainWrap #content .loan .txt1 { margin-bottom: 23px; font-size: 16px; line-height: 26px; }
+#mainWrap #content .loan li { height: 26px; margin-bottom: 12px; padding-left: 36px; background: url(../../../img/brand/pib/web/img_check.png) no-repeat 0 0; line-height: 26px; }
+#mainWrap #content .loan .loan_link { display: block; width: 200px; height: 44px; margin-top: 20px; background: url(../../../img/brand/pib/web/img_button_loan.png) no-repeat 0 0; text-indent: -9999px; }
+
+#mainWrap #content .content_list { overflow: hidden; padding: 28px 0; color: #323232; }
+#mainWrap #content .content_list li { float: left; width: 384px; padding-left: 88px; }
+#mainWrap #content .content_list dt { font-size: 18px; line-height: 28px; }
+#mainWrap #content .content_list dd { font-size: 14px; line-height: 1.3; }
+#mainWrap #content .content_list .cabinet { background: url(../../../img/brand/pib/web/img_cabinet.png) no-repeat 0 3px; }
+#mainWrap #content .content_list .cabinet a { display: block; width: 140px; height: 32px; margin-top: 10px; background: url(../img/img_button_cabinet.png) no-repeat 0 0; text-indent: -9999px; }
+#mainWrap #content .content_list .helpline { background: url(../../../img/brand/pib/web/img_call.png) no-repeat 0 3px; }
+#mainWrap #content .content_list .helpline a { display: block; height: 32px; background: url(../../../img/brand/pib/web/img_call_number.gif) no-repeat 0 center; line-height: 32px; text-indent: -9999px; }
+
+/*
+////////////////////////////////////////////////////////////////////////////
+ 모바일일 때 미
+////////////////////////////////////////////////////////////////////////////
+*/
+
+
+
+

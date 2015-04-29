@@ -1,0 +1,102 @@
+@charset "utf-8";
+
+/*
+////////////////////////////////////////////////////////////////////////////
+ 모바일일 때 미
+////////////////////////////////////////////////////////////////////////////
+*/
+@media all and (max-width : 480px)
+{
+	/* 페이지 정의 */	
+	
+	
+	#content { margin: 0; width: 100%; height: auto; }
+	#footer > div { position: relative; margin: 0; width: 100%; padding: 0 10px; }
+	#contain { width: 100%; }
+	
+	/* 헤더부분 */
+	#header {  margin: 0; width: 100%; height: 40px }
+	#header > div {  margin: 0; width: 100%; height: 40px }
+	.header_title { float: none; font-size: 22px; line-height: 40px; text-align: center; }
+	.head_bar { display: none; }
+	.header_sub { display: none; }
+	.menu_btn { display: block; position: absolute; top: 0; right: 0; width: 40px; height: 40px; background: url(../../../img/brand/pib/mobile/head_menu.png) no-repeat center; background-size: 20px auto; }	
+	
+	/* contain */
+	.contain { width: 100%; padding: 0 10px; min-height: 0; box-sizing: border-box;  }
+	.top_box { padding: 30px 10px; height: auto; border-bottom: 1px solid #ced9e2; background-color: #e5f2fc; text-align: center; }
+	.top_box > div { display: block; height: auto; }
+	.box_img { display: inline-block; position: relative; top: initial; width: 138px; height: 138px; margin: 0 0 15px 0; background: url(../../../img/brand/pib/mobile/weebi_img02.png) repeat center; background-size: 138px; }
+	.box_mes { display: block; padding-left: 0px; vertical-align: middle; font-size: 24px; text-align: left; color: #0773cf; text-align: center; }
+	.box_mes i { display: block; }
+	.box_mes p { font-size: 14px; line-height: 1.3; }
+	
+	
+	/* 페이지별  */
+	.keep_num .input { width: 40px; }
+	.family_link { display: none; }
+	.footer_link { line-height: 1.3; }
+	#footer .footer_box { margin: 0; padding: 14px 0 14px 46px; background: url(../../../img/brand/pib/mobile/footer_logo.png) no-repeat left 14px, #fff; background-size: 31px auto; }
+	
+	/* 버튼 */
+	.btn { width: 120px; padding: 0 10px; background: #f8c708; text-align: center; -webkit-border-radius: 3px; border-radius: 3px; box-sizing: border-box; }
+	.btn.gray { background: #dcdcdc; }
+	.btn_box { padding-bottom: 40px; border-bottom: 1px solid #e5e5e5; }
+	
+	/* input */
+	.input { line-height: 44px; font-size: 12px; }
+	.select{ font-size: 12px; background: #fff url(../../../img/brand/pib/mobile/select_bg2.png) no-repeat right; background-size: 25px auto; }
+	.check_btn { background: url(../../../img/brand/pib/mobile/check_off.png) no-repeat 0 0; background-size: 27px 26px; }
+	.check_btn.on { background: url(../../../img/brand/pib/mobile/check_on.png) no-repeat 0 0; background-size: 27px 26px; }
+	
+	
+	.dl_box01 { height: auto; overflow: hidden; border-bottom: 1px solid #e5e5e5; padding: 30px 21px; }
+	.dl_box01 dt { float: left; width: 100%; height: auto; padding: 0 0 10px 0; line-height: 1; font-size: 24px; color: #373737; }
+	.dl_box01 dd { float: left; }
+	.dl_box01.ty3 { margin-top: 54px; border-top: 1px solid #e5e5e5; }
+	
+	.dl_box01.ty2 { padding: 10px 0px; }
+	.dl_box01.ty2 dt { height: 44px; padding-bottom: 0; width: 31%; font-size: 12px; color: #737373; line-height: 44px; }
+	.dl_box01.ty2 dd { height: 44px; width: 69%; }
+	
+	.dl_box02 {  margin-bottom: 20px; box-sizing: border-box; }
+	.dl_box02 dt { height: 50px; width: 28%; line-height: 50px;  color: #737373; }
+	.dl_box02 dd { height: 50Px; width: 72%; line-height: 50px; }
+	.dl_box02 dt.last, .dl_box02 dd.last { border-bottom: none; }
+	
+	.dl_box02 dt.width14 { width: 28%; }
+	.dl_box02 dd.width86 { width: 72%; }
+	/* 페이지 타이틀 */
+	.page_title { padding: 13px 10px 10px 30px; border-bottom: 2px solid rgba(35, 144, 243 ,.3); line-height: 22px;}
+	.page_title span { background: url(../../../img/brand/pib/mobile/title_bg2.png) no-repeat 10px center; background-size: 13px auto; }
+	
+	
+	/* 페이지 스텝 */
+	.page_step {  height: 54px; text-align: center; }
+	.page_step .step_view { height: 17px; margin-top: 10px; background: url(../../../img/brand/pib/mobile/step_off.png) repeat-x; background-size: auto 14px; }
+	.page_step .step_view span { height: 100%; background: url(../../../img/brand/pib/mobile/step_on.png) repeat-x; background-size: auto 14px; }
+	.page_step .number { height: 22px; font-size: 14px; }
+	.page_step[data-step="2"] .step_view { width: 42px; }
+	.page_step[data-step="3"] .step_view { width: 70px; }
+	.page_step[data-step="4"] .step_view { width: 98px; }
+	.page_step[data-step="5"] .step_view { width: 126px; }
+	.page_step[data-step="6"] .step_view { width: 154px; }
+	.page_step[data-step="7"] .step_view { width: 182px; }
+	.page_step[data-step="8"] .step_view { width: 238px; }
+	.page_step[data-step="9"] .step_view { width: 266px; }
+	.page_step[data-step="10"] .step_view { width: 294px; }
+	
+	.step_view[data-active="1"] span { width: 14px; }
+	.step_view[data-active="2"] span { width: 42px; }
+	.step_view[data-active="3"] span { width: 70px; }
+	.step_view[data-active="4"] span { width: 98px; }
+	.step_view[data-active="5"] span { width: 126px; }
+	.step_view[data-active="6"] span { width: 154px; }
+	.step_view[data-active="7"] span { width: 182px; }
+	.step_view[data-active="8"] span { width: 210px; }
+	.step_view[data-active="9"] span { width: 238px; }
+	.step_view[data-active="10"] span { width: 266px; }
+}
+
+
+
