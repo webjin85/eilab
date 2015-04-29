@@ -5,11 +5,9 @@
  모바일일 때 미
 ////////////////////////////////////////////////////////////////////////////
 */
-@media all and (max-width : 480px)
+@media all and (max-width : 430px)
 {
 	/* 페이지 정의 */	
-	
-	
 	#content { margin: 0; width: 100%; height: auto; }
 	#footer > div { position: relative; margin: 0; width: 100%; padding: 0 10px; }
 	#contain { width: 100%; }
@@ -96,6 +94,29 @@
 	.step_view[data-active="8"] span { width: 210px; }
 	.step_view[data-active="9"] span { width: 238px; }
 	.step_view[data-active="10"] span { width: 266px; }
+
+	/* 메인페이지 */
+	#mainWrap { overflow: hidden; width: 100%; }
+	#mainWrap .back1 { background: none; }
+	#mainWrap .back2 { background: none; }
+
+	#mainWrap #header { height: 43px; }
+	#mainWrap #header .logo { float: none; width: 111px; padding-top: 0; margin: 0 auto; background: url(../../../img/brand/pib/mobile/img_logo.png) no-repeat 0 center; background-size: 100% auto; }
+	#mainWrap #header .menu { display: none; }
+	#mainWrap #header .menu_button { display: block; position: absolute; top: 0; right: 0; width: 40px; height: 43px; text-indent: -9999px; }
+	#mainWrap #header .menu_button:after { content: ''; position: absolute; top: 14px; left: 12px; width: 16px; height: 12px; border-top: 2px solid #fff; border-bottom: 2px solid #fff; }
+	#mainWrap #header .menu_button:before { content: ''; position: absolute; top: 21px; left: 10px; width: 20px; height: 2px; background: #fff; }
+
+	#mainWrap #content { width: 100%; padding: 27px 10px 10px; background: url(../../../img/brand/pib/mobile/img_back.jpg) no-repeat center 0; background-size: auto 358px; -webkit-box-sizing: border-box; box-sizing: border-box; }
+	#mainWrap #content .loan { height: auto; padding-left: 0; background: url(../../../img/brand/pib/mobile/img_character.png) no-repeat 5px 10px; background-size: 94px auto; }
+	#mainWrap #content .loan dl { padding-left: 130px; }
+	#mainWrap #content .loan dt { font-size: 26px; line-height: 43px; }
+	#mainWrap #content .loan dd { width: 182px; font-size: 14px; line-height: 17px; }
+	#mainWrap #content .loan .txt1 { margin-top: 27px; padding: 0 9px; font-size: 14px; line-height: 17px; }
+
+	#mainWrap #content .loan ul { padding: 0 10px; }
+	#mainWrap #content .loan li { height: auto; margin-bottom: 10px; padding-left: 29px; background: url(../../../img/brand/pib/web/img_check.png) no-repeat 0 0; background-size: 17px auto; font-size: 14px; line-height: 17px; }
+	#mainWrap #content .loan .loan_link { display: none; }
 }
 
 
